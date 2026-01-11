@@ -1,40 +1,40 @@
-dbus-daemon[21301]: [session uid=1000 pid=21301 pidfd=5] Activating service name='org.freedesktop.portal.Desktop' requested by ':1.0' (uid=1000 pid=21302 comm="lingmo-session" label="unconfined")
-dbus-daemon[21301]: [session uid=1000 pid=21301 pidfd=5] Activating service name='org.freedesktop.impl.portal.PermissionStore' requested by ':1.1' (uid=1000 pid=21306 comm="/usr/lib/xdg-desktop-portal" label="unconfined")
-dbus-daemon[21301]: [session uid=1000 pid=21301 pidfd=5] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
-dbus-daemon[21301]: [session uid=1000 pid=21301 pidfd=5] Activating service name='org.freedesktop.portal.Documents' requested by ':1.1' (uid=1000 pid=21306 comm="/usr/lib/xdg-desktop-portal" label="unconfined")
-dbus-daemon[21301]: [session uid=1000 pid=21301 pidfd=5] Successfully activated service 'org.freedesktop.portal.Documents'
-dbus-daemon[21301]: [session uid=1000 pid=21301 pidfd=5] Successfully activated service 'org.freedesktop.portal.Desktop'
-dbus-daemon[21301]: [session uid=1000 pid=21301 pidfd=5] Activating service name='org.freedesktop.systemd1' requested by ':1.0' (uid=1000 pid=21302 comm="lingmo-session" label="unconfined")
-dbus-daemon[21301]: [session uid=1000 pid=21301 pidfd=5] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+dbus-daemon[673006]: [session uid=1000 pid=673006 pidfd=5] Activating service name='org.freedesktop.portal.Desktop' requested by ':1.0' (uid=1000 pid=673007 comm="lingmo-session" label="unconfined")
+dbus-daemon[673006]: [session uid=1000 pid=673006 pidfd=5] Activating service name='org.freedesktop.impl.portal.PermissionStore' requested by ':1.1' (uid=1000 pid=673010 comm="/usr/lib/xdg-desktop-portal" label="unconfined")
+dbus-daemon[673006]: [session uid=1000 pid=673006 pidfd=5] Successfully activated service 'org.freedesktop.impl.portal.PermissionStore'
+dbus-daemon[673006]: [session uid=1000 pid=673006 pidfd=5] Activating service name='org.freedesktop.portal.Documents' requested by ':1.1' (uid=1000 pid=673010 comm="/usr/lib/xdg-desktop-portal" label="unconfined")
+dbus-daemon[673006]: [session uid=1000 pid=673006 pidfd=5] Successfully activated service 'org.freedesktop.portal.Documents'
+dbus-daemon[673006]: [session uid=1000 pid=673006 pidfd=5] Successfully activated service 'org.freedesktop.portal.Desktop'
+dbus-daemon[673006]: [session uid=1000 pid=673006 pidfd=5] Activating service name='org.freedesktop.systemd1' requested by ':1.0' (uid=1000 pid=673007 comm="lingmo-session" label="unconfined")
+dbus-daemon[673006]: [session uid=1000 pid=673006 pidfd=5] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
 Window manager started
 Skipping missing/unexecutable process: "lingmo-permission-surveillance"
-Process started: "lingmo-settings-daemon" PID: 21341
-Process started: "lingmo-xembedsniproxy" PID: 21342
-Process started: "lingmo-gmenuproxy" PID: 21343
-Process started: "lingmo-chotkeys" PID: 21344
-Process started: "lingmo-notificationd" PID: 21354
-Process started: "lingmo-statusbar" PID: 21355
-Process started: "lingmo-dock" PID: 21356
-Process started: "lingmo-filemanager" PID: 21357
-Process started: "lingmo-launcher" PID: 21358
-Process started: "lingmo-powerman" PID: 21359
-Process started: "lingmo-clipboard" PID: 21360
-Process started: "lingmo-wallpaper-color-pick" PID: 21386
-Process started: "guake" PID: 21516
-Process started: "/usr/bin/flameshot" PID: 21518
-Process started: "remmina" PID: 21545
-Process started: "blueman-applet" PID: 21546
-Process started: "lingmo-polkit-agent" PID: 21547
-Process started: "nm-applet" PID: 21548
-Process started: "picom" PID: 21549
-Process started: "/usr/lib/xapps/xapp-sn-watcher" PID: 21551
-Process started: "xdg-user-dirs-update" PID: 21554
-dbus-daemon[21301]: [session uid=1000 pid=21301 pidfd=5] Activating service name='org.a11y.Bus' requested by ':1.23' (uid=1000 pid=21548 comm="/usr/bin/nm-applet" label="unconfined")
-dbus-daemon[21301]: [session uid=1000 pid=21301 pidfd=5] Successfully activated service 'org.a11y.Bus'
-dbus-daemon[21620]: Activating service name='org.a11y.atspi.Registry' requested by ':1.1' (uid=1000 pid=21546 comm="/usr/bin/python /usr/bin/blueman-applet" label="unconfined")
-dbus-daemon[21620]: Successfully activated service 'org.a11y.atspi.Registry'
+Process started: "lingmo-settings-daemon" PID: 673048
+Process started: "lingmo-xembedsniproxy" PID: 673049
+Process started: "lingmo-gmenuproxy" PID: 673050
+Process started: "lingmo-chotkeys" PID: 673051
+Process started: "lingmo-notificationd" PID: 673086
+Process started: "lingmo-statusbar" PID: 673087
+Process started: "lingmo-dock" PID: 673088
+Process started: "lingmo-filemanager" PID: 673089
+Process started: "lingmo-launcher" PID: 673090
+Process started: "lingmo-powerman" PID: 673091
+Process started: "lingmo-clipboard" PID: 673092
+Process started: "lingmo-wallpaper-color-pick" PID: 673093
+Process started: "guake" PID: 673224
+Process started: "/usr/bin/flameshot" PID: 673225
+Process started: "remmina" PID: 673226
+Process started: "blueman-applet" PID: 673228
+Process started: "lingmo-polkit-agent" PID: 673229
+Process started: "nm-applet" PID: 673232
+Process started: "picom" PID: 673238
+Process started: "/usr/lib/xapps/xapp-sn-watcher" PID: 673261
+Process started: "xdg-user-dirs-update" PID: 673262
+dbus-daemon[673006]: [session uid=1000 pid=673006 pidfd=5] Activating service name='org.a11y.Bus' requested by ':1.23' (uid=1000 pid=673232 comm="/usr/bin/nm-applet" label="unconfined")
+dbus-daemon[673006]: [session uid=1000 pid=673006 pidfd=5] Successfully activated service 'org.a11y.Bus'
+dbus-daemon[673318]: Activating service name='org.a11y.atspi.Registry' requested by ':1.2' (uid=1000 pid=673228 comm="/usr/bin/python /usr/bin/blueman-applet" label="unconfined")
+dbus-daemon[673318]: Successfully activated service 'org.a11y.atspi.Registry'
 SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
-dbus-daemon[21301]: [session uid=1000 pid=21301 pidfd=5] Activating service name='ca.desrt.dconf' requested by ':1.27' (uid=1000 pid=21516 comm="/usr/bin/python3 /usr/bin/guake" label="unconfined")
-dbus-daemon[21301]: [session uid=1000 pid=21301 pidfd=5] Successfully activated service 'ca.desrt.dconf'
+dbus-daemon[673006]: [session uid=1000 pid=673006 pidfd=5] Activating service name='ca.desrt.dconf' requested by ':1.29' (uid=1000 pid=673224 comm="/usr/bin/python3 /usr/bin/guake" label="unconfined")
+dbus-daemon[673006]: [session uid=1000 pid=673006 pidfd=5] Successfully activated service 'ca.desrt.dconf'
 X connection to :1 broken (explicit kill or server shutdown).
 The X11 connection broke (error 1). Did the X11 server die?
